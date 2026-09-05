@@ -8,7 +8,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 
 const links = [
-  ["Why us", "#why"],
+  ["About us", "#about"],
   ["Courses", "#courses"],
   ["Testimonials", "#testimonials"],
   ["Referral", "#referral"],
