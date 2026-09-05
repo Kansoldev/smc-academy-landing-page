@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 
 function Hero() {
   return (
-    <section className="relative overflow-hidden bg-[linear-gradient(180deg,transparent_0%,#fff_78%),radial-gradient(circle_at_1.5px_1.5px,#dfe2e8_1.4px,transparent_1.4px)] bg-size-[auto,26px_26px] h-screen">
+    <section className="relative overflow-hidden bg-[linear-gradient(180deg,transparent_0%,#fff_78%),radial-gradient(circle_at_1.5px_1.5px,#dfe2e8_1.4px,transparent_1.4px)] bg-size-[auto,26px_26px]">
       <div className="relative z-1 grid grid-cols-1 lg:grid-cols-[1.05fr_.95fr] items-center gap-8 md:gap-14 w-full max-w-290 mx-auto px-5 md:px-8 pt-7 pb-16 md:pb-22 md:mt-7">
         <motion.div
           initial={{ opacity: 0, y: 16 }}
