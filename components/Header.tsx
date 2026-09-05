@@ -45,7 +45,7 @@ export default function Header() {
 
         <div className="flex items-center gap-3.5">
           <Button size="sm" className="hidden md:block">
-            <Link href="#waitlist">Join the waitlist</Link>
+            <Link href="#">Enroll Now</Link>
           </Button>
 
           <button
@@ -79,7 +79,7 @@ export default function Header() {
             ))}
 
             <Button className="mx-8 mb-5.5 mt-4" onClick={() => setOpen(false)}>
-              <Link href="#waitlist">Join the waitlist</Link>
+              <Link href="#">Enroll Now</Link>
             </Button>
           </motion.div>
         )}
