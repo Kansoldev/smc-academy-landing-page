@@ -6,7 +6,7 @@ const items = [
   [
     Users,
     "Professional tutors",
-    "Our tutors are experienced professionals who are deeply knowledgeable in their fields and, just as importantly, know how to pass that knowledge on to others. Learn from professionals, build real projects, and become industry-ready!.",
+    "Our tutors are experienced professionals who are deeply knowledgeable in their fields, and just as importantly, know how to pass that knowledge on to others. Learn from professionals, build real projects, and become industry-ready!.",
   ],
   [
     ShieldCheck,
@@ -21,7 +21,7 @@ const items = [
   [
     Tags,
     "Priced to be worth it",
-    "One transparent price per track. No surprise certificate fees, no upsells buried within the course of the class. We give you everything upfront",
+    "One transparent price per track. No surprise certificate fees, no upsells buried within the course of the class. We give you everything upfront.",
   ],
 ] as const;
 
