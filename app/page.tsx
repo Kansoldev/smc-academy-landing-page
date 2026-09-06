@@ -4,6 +4,7 @@ import AcademyStats from "@/components/AcademyStats";
 import About from "@/components/About";
 import Courses from "@/components/Courses";
 import Testimonials from "@/components/Testimonials";
+import { Referral } from "@/components/Referral";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
         <About />
         <Courses />
         <Testimonials />
+        <Referral />
         <Footer />
       </main>
     </>

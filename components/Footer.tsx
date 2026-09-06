@@ -58,12 +58,12 @@ function Footer() {
             <h2 className="text-white font-semibold mb-4">About</h2>
             <ul className="flex flex-col gap-2">
               <li>
-                <a
+                <Link
                   href="#about"
                   className="text-sm text-white/55 hover:text-white"
                 >
                   About us
-                </a>
+                </Link>
               </li>
 
               <li>
@@ -78,9 +78,12 @@ function Footer() {
               </li>
 
               <li>
-                <a href="#" className="text-sm text-white/55 hover:text-white">
+                <Link
+                  href="#"
+                  className="text-sm text-white/55 hover:text-white"
+                >
                   FAQ
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -89,33 +92,39 @@ function Footer() {
             <h2 className="text-white font-semibold mb-4">Learn</h2>
             <ul className="flex flex-col gap-2">
               <li>
-                <a
+                <Link
                   href="#courses"
                   className="text-sm text-white/55 hover:text-white"
                 >
                   All courses
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a
+                <Link
                   href="#testimonials"
                   className="text-sm text-white/55 hover:text-white"
                 >
                   Testimonials
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a href="#" className="text-sm text-white/55 hover:text-white">
+                <Link
+                  href="#referral"
+                  className="text-sm text-white/55 hover:text-white"
+                >
                   Referral program
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a href="#" className="text-sm text-white/55 hover:text-white">
+                <Link
+                  href="#"
+                  className="text-sm text-white/55 hover:text-white"
+                >
                   Join waitlist
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
