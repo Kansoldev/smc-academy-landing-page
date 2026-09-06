@@ -15,7 +15,7 @@ const courseLists = [
     Bitcoin,
     "Blockchain & Smart Contract Development",
     "Write, test and deploy your own smart contracts on Ethereum and BSC, then ship a working dApp.",
-    "8 weeks",
+    "12 weeks",
   ],
   [
     LayoutDashboard,
@@ -33,13 +33,13 @@ const courseLists = [
     BarChart3,
     "Blockchain Research",
     "Explore the fundamentals of blockchain technology, emerging trends, and real-world applications. Develop the research skills needed to analyze blockchain ecosystems, evaluate innovations, and uncover insights shaping the future of decentralized technology..",
-    "6 weeks",
+    "8 weeks",
   ],
   [
     Coins,
     "Cryptocurrency Trading",
     "Learn the fundamentals of cryptocurrency trading, from market analysis and risk management to trading strategies and portfolio planning. Develop the knowledge and discipline needed to navigate crypto markets with greater confidence.",
-    "6 weeks",
+    "8 weeks",
   ],
   [
     FileImage,
