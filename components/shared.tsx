@@ -3,10 +3,10 @@ export function SectionHead({
   description,
 }: {
   title: string;
-  description: string;
+  description?: string;
 }) {
   return (
-    <div className="mx-auto mb-13 max-w-200 text-center">
+    <div className="mx-auto mb-10 max-w-200 text-center">
       <h2 className="text-4xl font-bold leading-[1.18] max-[600px]:text-[27px]">
         {title}
       </h2>
