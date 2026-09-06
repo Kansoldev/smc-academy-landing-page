@@ -35,9 +35,8 @@ export function Referral() {
 
           <p className="text-[0.9375rem] text-[#565c68] mt-3">
             Every student gets a personal referral link generated inside our
-            Telegram bot. You can share that referral link, and when a friend
-            enrolls, you both earn SMC points that convert into course discounts
-            and DAO badges.
+            Telegram bot. You can share that referral link, and for each
+            successful referral, you earn a commission.
           </p>
 
           <div className="flex flex-col gap-4 mt-6">
