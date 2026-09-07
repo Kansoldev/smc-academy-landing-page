@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import AcademyStats from "@/components/AcademyStats";
 import About from "@/components/About";
+import ForexclassPromo from "@/components/ForexclassPromo";
 import Courses from "@/components/Courses";
 import Testimonials from "@/components/Testimonials";
 import { Referral } from "@/components/Referral";
@@ -16,6 +17,7 @@ export default function Home() {
         <Hero />
         <AcademyStats />
         <About />
+        <ForexclassPromo />
         <Courses />
         <Testimonials />
         <Referral />
