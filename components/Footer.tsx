@@ -141,19 +141,26 @@ function Footer() {
 
               <li>
                 <a
-                  href="mailto:smcacademy247@gmail.com"
+                  href="mailto:academy@smcmegagroup.com"
                   className="text-sm text-white/55 hover:text-white"
                 >
-                  smcacademy247@gmail.com
+                  academy@smcmegagroup.com
                 </a>
               </li>
 
-              <li>
+              <li className="flex flex-col gap-2">
                 <a
                   href="tel:08062900944"
                   className="text-sm text-white/55 hover:text-white"
                 >
                   +234 806 290 0944
+                </a>
+
+                <a
+                  href="tel:08024969563"
+                  className="text-sm text-white/55 hover:text-white"
+                >
+                  +234 802 496 9563
                 </a>
               </li>
             </ul>
