@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { Button } from "@/components/ui/button";
 
 function Hero() {
   return (
@@ -23,9 +22,24 @@ function Hero() {
             confidence to create the next big thing with SMC Academy.
           </p>
 
-          <div className="flex flex-col md:flex-row gap-4 md:gap-7 mt-8">
-            <Button>Enroll Now</Button>
-            <Button variant="secondary">Join the waitlist</Button>
+          <div className="flex flex-col min-[25rem]:flex-row min-[25rem]:items-center text-center gap-4 md:gap-7 mx-auto mt-8">
+            <a
+              href="https://forms.gle/Y6HZ8qndwTk1jKky9"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-[#12141a] text-white hover:-translate-y-px hover:bg-[#1c1f28] rounded-full font-semibold px-6.5 py-3.5"
+            >
+              Enroll Now
+            </a>
+
+            <a
+              href="https://chat.whatsapp.com/BrymLc01EjZIj4biDglVsW"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white text-[#12141a] border-2 border-[#12141a] hover:-translate-y-px rounded-full font-semibold px-6.5 py-3.5"
+            >
+              Join the waitlist
+            </a>
           </div>
         </motion.div>
 

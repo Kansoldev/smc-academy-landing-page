@@ -76,9 +76,14 @@ function Courses() {
                   </span>
                 </div>
 
-                <Button size="sm" className="text-sm mt-6 font-medium">
+                <a
+                  href="https://forms.gle/Y6HZ8qndwTk1jKky9"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-[#12141a] text-white hover:-translate-y-px hover:bg-[#1c1f28] rounded-full font-semibold text-sm px-5.5 py-3 mt-6"
+                >
                   Enroll Now
-                </Button>
+                </a>
               </CardContent>
             </Card>
           ))}

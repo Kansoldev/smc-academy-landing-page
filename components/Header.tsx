@@ -5,7 +5,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import { AnimatePresence, motion } from "framer-motion";
-import { Button } from "@/components/ui/button";
 
 const links = [
   ["About us", "#about"],
@@ -20,7 +19,7 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-[#e4e6eb] bg-white/88 backdrop-blur-[10px]">
-      <div className="max-w-290 w-full mx-auto flex items-center justify-between px-8 max-[600px]:px-5 h-19.5">
+      <div className="max-w-290 w-full mx-auto flex items-center justify-between px-5 md:px-8 h-19.5">
         <Link href="/">
           <Image
             src="/logo.svg"
@@ -44,9 +43,14 @@ export default function Header() {
         </nav>
 
         <div className="flex items-center gap-3.5">
-          <Button size="sm" className="hidden md:block">
-            <Link href="#">Enroll Now</Link>
-          </Button>
+          <a
+            href="https://forms.gle/Y6HZ8qndwTk1jKky9"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-[#12141a] text-white text-sm hover:-translate-y-px hover:bg-[#1c1f28] rounded-full font-semibold px-6 py-4 hidden md:block"
+          >
+            Enroll Now
+          </a>
 
           <button
             className="cursor-pointer border-0 bg-transparent p-1.5 text-[#12141a] md:hidden"
@@ -62,7 +66,7 @@ export default function Header() {
       <AnimatePresence initial={false}>
         {open && (
           <motion.div
-            className="flex flex-col gap-0.5 overflow-hidden border-t border-[#e4e6eb] bg-white max-[980px]:flex"
+            className="flex flex-col gap-0.5 overflow-hidden border-t border-[#e4e6eb] bg-white"
             initial={{ height: 0, opacity: 0 }}
             animate={{ height: "auto", opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
@@ -78,9 +82,15 @@ export default function Header() {
               </Link>
             ))}
 
-            <Button className="mx-8 mb-5.5 mt-4" onClick={() => setOpen(false)}>
-              <Link href="#">Enroll Now</Link>
-            </Button>
+            <a
+              href="https://forms.gle/Y6HZ8qndwTk1jKky9"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-[#12141a] text-white text-sm hover:-translate-y-px hover:bg-[#1c1f28] rounded-full font-semibold mx-8 text-center py-4 my-3 w-40"
+              onClick={() => setOpen(false)}
+            >
+              Enroll Now
+            </a>
           </motion.div>
         )}
       </AnimatePresence>
