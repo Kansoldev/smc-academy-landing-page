@@ -47,7 +47,7 @@ export function Referral() {
                 </div>
 
                 <div>
-                  <h3 className="font-semibold text-[#12141a] mb-0.5">
+                  <h3 className="font-semibold text-lg text-[#12141a] mb-0.5">
                     {title}
                   </h3>
 

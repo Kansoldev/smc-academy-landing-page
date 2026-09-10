@@ -42,7 +42,7 @@ function About() {
                   <Icon size={20} />
                 </div>
 
-                <h3 className="mb-2 text-lg font-semibold">{t}</h3>
+                <h3 className="mb-2 text-xl font-semibold">{t}</h3>
                 <p className="text-sm text-[#12141a] leading-relaxed">{d}</p>
               </CardContent>
             </Card>

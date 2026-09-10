@@ -7,7 +7,6 @@ import {
   LayoutDashboard,
 } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
 import { SectionHead } from "./shared";
 
 const courseLists = [
@@ -66,7 +65,7 @@ function Courses() {
                   <Icon className="size-5 stroke-[1.7]" />
                 </div>
 
-                <h3 className="mb-2 font-semibold">{t}</h3>
+                <h3 className="mb-2 font-semibold text-lg">{t}</h3>
                 <p className="flex-1 text-sm text-[#565c68] leading-relaxed">
                   {d}
                 </p>

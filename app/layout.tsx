@@ -1,9 +1,27 @@
 import type { Metadata } from "next";
-import { Inter, Sora } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
-const sora = Sora({ subsets: ["latin"], variable: "--font-sora" });
+const AeonikFont = localFont({
+  src: [
+    {
+      path: "./fonts/Aeonik-Regular.ttf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "./fonts/Aeonik-Medium.ttf",
+      weight: "500",
+      style: "normal",
+    },
+    {
+      path: "./fonts/Aeonik-Bold.ttf",
+      weight: "700",
+      style: "normal",
+    },
+  ],
+  variable: "--font-aeonik",
+});
 
 export const metadata: Metadata = {
   title: "SMC Academy",
@@ -15,8 +33,8 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className={`${inter.variable} ${sora.variable}`}>
-      <body className="m-0 bg-white text-[#12141a] font-(family-name:--font-inter) text-base leading-[1.6] antialiased">
+    <html lang="en" className={AeonikFont.className}>
+      <body className="m-0 bg-white text-[#12141a] text-base leading-[1.6] antialiased">
         {children}
       </body>
     </html>
