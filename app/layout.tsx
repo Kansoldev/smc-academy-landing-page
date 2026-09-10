@@ -5,17 +5,17 @@ import "./globals.css";
 const AeonikFont = localFont({
   src: [
     {
-      path: "./fonts/Aeonik-Regular.ttf",
+      path: "./fonts/Aeonik-Regular.woff2",
       weight: "400",
       style: "normal",
     },
     {
-      path: "./fonts/Aeonik-Medium.ttf",
+      path: "./fonts/Aeonik-Medium.woff2",
       weight: "500",
       style: "normal",
     },
     {
-      path: "./fonts/Aeonik-Bold.ttf",
+      path: "./fonts/Aeonik-Bold.woff2",
       weight: "700",
       style: "normal",
     },
