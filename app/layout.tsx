@@ -6,9 +6,9 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const sora = Sora({ subsets: ["latin"], variable: "--font-sora" });
 
 export const metadata: Metadata = {
-  title: "SMC Academy — Tech & Financial Skills for Builders",
+  title: "SMC Academy",
   description:
-    "SMC Academy is the education arm of SMC DAO. Learn blockchain development, personal finance and trading skills inside a real community.",
+    "Learn in-demand digital skills at SMC Academy. Train in Web3, blockchain, forex, coding, graphics design, crypto and more.",
 };
 
 export default function RootLayout({
