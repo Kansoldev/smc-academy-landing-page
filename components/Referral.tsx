@@ -23,7 +23,7 @@ const steps = [
   ],
 ];
 
-export function Referral() {
+function Referral() {
   return (
     <section id="referral" className="bg-[#f5f6f8] pt-8 pb-16 md:py-16">
       <div className="grid lg:grid-cols-[.95fr_1.05fr] justify-between items-center gap-10 max-w-290 mx-auto px-5 md:px-8">
@@ -57,12 +57,12 @@ export function Referral() {
             ))}
           </div>
 
-          <Button className="mt-6 bg-[#0088CC] hover:bg-[#01699c]">
+          <Button className="mt-6 bg-[#0088CC] hover:bg-[#01699c] px-6 py-6 sm:p-7">
             <a
               href="https://t.me/SMCARtrackerbot"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-3"
+              className="flex items-center gap-2"
             >
               <Image src="/telegram.svg" width={30} height={30} alt="" />
               Open referral bot on Telegram
@@ -90,3 +90,5 @@ export function Referral() {
     </section>
   );
 }
+
+export default Referral;

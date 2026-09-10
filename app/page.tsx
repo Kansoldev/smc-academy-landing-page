@@ -5,7 +5,7 @@ import About from "@/components/About";
 import ForexclassPromo from "@/components/ForexclassPromo";
 import Courses from "@/components/Courses";
 import Testimonials from "@/components/Testimonials";
-import { Referral } from "@/components/Referral";
+import Referral from "@/components/Referral";
 import Footer from "@/components/Footer";
 
 export default function Home() {
