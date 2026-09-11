@@ -52,13 +52,13 @@ export default function Header() {
             href="https://forms.gle/Y6HZ8qndwTk1jKky9"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-[#12141a] text-white text-sm hover:-translate-y-px hover:bg-[#1c1f28] rounded-full font-semibold px-6 py-4 hidden md:block"
+            className="bg-black text-white text-sm hover:-translate-y-px hover:bg-[#1c1f28] rounded-full font-semibold px-6 py-4 hidden md:block"
           >
             Enroll Now
           </a>
 
           <button
-            className="cursor-pointer border-0 bg-transparent p-1.5 text-[#12141a] md:hidden"
+            className="cursor-pointer border-0 bg-transparent p-1.5 md:hidden"
             onClick={() => setOpen((v) => !v)}
             aria-expanded={open}
             aria-label={open ? "Close menu" : "Open menu"}
@@ -91,7 +91,7 @@ export default function Header() {
               href="https://forms.gle/Y6HZ8qndwTk1jKky9"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-[#12141a] text-white text-sm hover:-translate-y-px hover:bg-[#1c1f28] rounded-full font-semibold mx-8 text-center py-4 my-3 w-40"
+              className="bg-black text-white text-sm hover:-translate-y-px hover:bg-[#1c1f28] rounded-full font-semibold mx-8 text-center py-4 my-3 w-40"
               onClick={() => setOpen(false)}
             >
               Enroll Now

@@ -16,7 +16,7 @@ function AcademyStats() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, delay: 0.12 }}
     >
-      <section className="bg-[#12141a] py-10 text-white">
+      <section className="bg-black py-10 text-white">
         <div className="max-w-290 w-full mx-auto px-8 max-[600px]:px-5 grid grid-cols-1 md:grid-cols-4 gap-10 md:gap-0">
           {stats.map(([v, l]) => (
             <div className="px-3 text-center" key={l}>

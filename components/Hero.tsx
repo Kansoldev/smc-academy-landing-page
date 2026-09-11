@@ -27,7 +27,7 @@ function Hero() {
               href="https://forms.gle/Y6HZ8qndwTk1jKky9"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-[#12141a] text-white hover:-translate-y-px hover:bg-[#1c1f28] rounded-full font-semibold px-6.5 py-3.5"
+              className="bg-black text-white hover:-translate-y-px hover:bg-[#1c1f28] rounded-full font-semibold px-6.5 py-3.5"
             >
               Enroll Now
             </a>
@@ -36,7 +36,7 @@ function Hero() {
               href="https://chat.whatsapp.com/BrymLc01EjZIj4biDglVsW"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-white text-[#12141a] border-2 border-[#12141a] hover:-translate-y-px rounded-full font-semibold px-6.5 py-3.5"
+              className="bg-white border-2 border-[#12141a] hover:-translate-y-px rounded-full font-semibold px-6.5 py-3.5"
             >
               Join the waitlist
             </a>

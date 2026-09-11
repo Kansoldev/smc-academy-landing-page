@@ -42,14 +42,12 @@ function Referral() {
           <div className="flex flex-col gap-4 mt-6">
             {steps.map(([title, body], i) => (
               <div key={title} className="flex items-start gap-3">
-                <div className="flex items-center justify-center shrink-0 size-8 rounded-full text-xs font-bold bg-[#12141a] text-white">
+                <div className="flex items-center justify-center shrink-0 size-8 rounded-full text-xs font-bold bg-black text-white">
                   {i + 1}
                 </div>
 
                 <div>
-                  <h3 className="font-semibold text-lg text-[#12141a] mb-0.5">
-                    {title}
-                  </h3>
+                  <h3 className="font-semibold text-lg mb-0.5">{title}</h3>
 
                   <p className="text-sm text-[#565c68]">{body}</p>
                 </div>

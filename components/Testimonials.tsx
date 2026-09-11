@@ -25,10 +25,10 @@ function Testimonials() {
           {data.map(([q, n, r]) => (
             <Card key={n}>
               <CardContent className="flex flex-col justify-between p-6">
-                <h3 className="text-[#12141a] italic">{q}</h3>
+                <h3 className="italic">{q}</h3>
 
                 <div className="mt-5 flex gap-3">
-                  <div className="flex items-center justify-center rounded-full bg-[#12141a] text-white text-sm font-bold size-10.5">
+                  <div className="flex items-center justify-center rounded-full bg-black text-white text-sm font-bold size-10.5">
                     <User size={20} />
                   </div>
 

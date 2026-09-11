@@ -38,12 +38,12 @@ function About() {
           {items.map(([Icon, t, d]) => (
             <Card key={t} className="">
               <CardContent className="p-7">
-                <div className="flex items-center justify-center rounded-xl bg-[#eee] text-[#12141a] size-11.5 mb-4.5">
+                <div className="flex items-center justify-center rounded-xl bg-[#eee] size-11.5 mb-4.5">
                   <Icon size={20} />
                 </div>
 
                 <h3 className="mb-2 text-xl font-semibold">{t}</h3>
-                <p className="text-sm text-[#12141a] leading-relaxed">{d}</p>
+                <p className="text-sm leading-relaxed">{d}</p>
               </CardContent>
             </Card>
           ))}

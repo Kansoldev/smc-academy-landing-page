@@ -61,7 +61,7 @@ function Courses() {
           {courseLists.map(([Icon, t, d, w]) => (
             <Card key={t}>
               <CardContent className="p-6 flex flex-col items-start">
-                <div className="flex items-center justify-center rounded-lg bg-[#eee] text-[#12141a] size-10 mb-4">
+                <div className="flex items-center justify-center rounded-lg bg-[#eee] size-10 mb-4">
                   <Icon className="size-5 stroke-[1.7]" />
                 </div>
 
@@ -79,7 +79,7 @@ function Courses() {
                   href="https://forms.gle/Y6HZ8qndwTk1jKky9"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-[#12141a] text-white hover:-translate-y-px hover:bg-[#1c1f28] rounded-full font-semibold text-sm px-5.5 py-3 mt-6"
+                  className="bg-black text-white hover:-translate-y-px hover:bg-[#1c1f28] rounded-full font-semibold text-sm px-5.5 py-3 mt-6"
                 >
                   Enroll Now
                 </a>
