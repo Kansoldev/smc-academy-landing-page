@@ -7,14 +7,19 @@ function Footer() {
       <div className="w-full max-w-290 mx-auto px-5 md:px-8">
         <div className="grid md:grid-cols-[1.4fr_1fr_1fr_1fr] gap-10">
           <div>
-            <Link href="/">
-              <Image
-                src="/logo.svg"
-                width={120}
-                height={100}
-                className="object-cover invert-100"
-                alt="SMC Academy logo"
-              />
+            <Link href="/" className="flex items-center sm:gap-2 -ml-2">
+              <div className="relative h-11 w-11">
+                <Image
+                  src="/logo.png"
+                  className="object-contain max-w-full invert-100"
+                  alt="SMC Academy logo"
+                  fill
+                />
+              </div>
+
+              <span className="text-[24px] text-white font-black tracking-[-0.08em]">
+                SMC Academy
+              </span>
             </Link>
 
             <p className="text-sm text-white/55 mt-4">
