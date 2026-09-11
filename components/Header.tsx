@@ -18,24 +18,29 @@ export default function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-[#e4e6eb] bg-white/88 backdrop-blur-[10px]">
+    <header className="sticky top-0 z-50 border-b border-[#e4e6eb] bg-[#f5f5f4] backdrop-blur-[10px]">
       <div className="max-w-290 w-full mx-auto flex items-center justify-between px-5 md:px-8 h-19.5">
-        <Link href="/">
-          <Image
-            src="/logo.svg"
-            width={120}
-            height={100}
-            className="object-cover max-w-full"
-            alt="SMC Academy logo"
-          />
+        <Link href="/" className="flex items-center sm:gap-2">
+          <div className="relative h-11 w-11">
+            <Image
+              src="/logo.png"
+              className="object-contain max-w-full"
+              alt="SMC Academy logo"
+              fill
+            />
+          </div>
+
+          <span className="text-[24px] font-black tracking-[-0.08em]">
+            SMC Academy
+          </span>
         </Link>
 
-        <nav className="hidden md:flex items-center md:gap-5 lg:gap-10">
+        <nav className="hidden md:flex items-center justify-center md:gap-5 lg:gap-10">
           {links.map(([label, href]) => (
             <Link
               key={href}
               href={href}
-              className="text-[14.5px] font-medium text-[#565c68] transition-colors hover:text-[#12141a]"
+              className="text-[0.84375rem] uppercase font-medium text-[#777772] hover:text-black tracking-wide transition-colors"
             >
               {label}
             </Link>
@@ -75,7 +80,7 @@ export default function Header() {
               <Link
                 key={href}
                 href={href}
-                className="border-b border-[#e4e6eb] px-8 py-3.5 text-[15px] font-medium"
+                className="text-[0.84375rem] text-[#777772] hover:text-black uppercase font-medium border-b border-[#e4e6eb] px-8 py-3.5"
                 onClick={() => setOpen(false)}
               >
                 {label}
