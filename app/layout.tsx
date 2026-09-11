@@ -34,7 +34,7 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className={AeonikFont.className}>
-      <body className="m-0 bg-white text-[#12141a] text-base leading-[1.6] antialiased">
+      <body className="m-0 bg-background text-black text-base leading-[1.6] antialiased">
         {children}
       </body>
     </html>

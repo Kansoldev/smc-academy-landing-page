@@ -25,7 +25,7 @@ const steps = [
 
 function Referral() {
   return (
-    <section id="referral" className="bg-[#f5f6f8] pt-8 pb-16 md:py-16">
+    <section id="referral" className="bg-white pt-8 pb-16 md:py-16">
       <div className="grid lg:grid-cols-[.95fr_1.05fr] justify-between items-center gap-10 max-w-290 mx-auto px-5 md:px-8">
         <div>
           <h2 className="text-[1.6875rem] md:text-[2rem] font-bold leading-tight mt-3">

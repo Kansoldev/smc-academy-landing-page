@@ -3,7 +3,7 @@ import { MapPin, Video, Clock, Calendar, Phone, Mail } from "lucide-react";
 
 function ForexclassPromo() {
   return (
-    <section className="w-full bg-[#f5f6f8] text-[#12141a] py-14 px-6">
+    <section className="w-full bg-white text-[#12141a] py-14 px-6">
       <div className="max-w-290 mx-auto grid md:grid-cols-2 items-center gap-10 px-5 md:px-0">
         <div>
           <h2 className="text-3xl md:text-5xl font-bold leading-tight mb-4">
