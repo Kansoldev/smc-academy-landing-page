@@ -7,11 +7,11 @@ import { Menu, X } from "lucide-react";
 import { AnimatePresence, motion } from "framer-motion";
 
 const links = [
-  ["About us", "#about"],
-  ["Courses", "#courses"],
-  ["Testimonials", "#testimonials"],
-  ["Referral", "#referral"],
-  ["FAQ", "#faq"],
+  ["About us", "/#about"],
+  ["Courses", "/#courses"],
+  ["Testimonials", "/#testimonials"],
+  ["Referral", "/#referral"],
+  ["Events", "/events"],
 ];
 
 export default function Header() {

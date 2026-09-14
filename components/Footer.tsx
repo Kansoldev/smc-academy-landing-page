@@ -64,7 +64,7 @@ function Footer() {
             <ul className="flex flex-col gap-2">
               <li>
                 <Link
-                  href="#about"
+                  href="/#about"
                   className="text-sm text-white/55 hover:text-white"
                 >
                   About us
@@ -81,15 +81,6 @@ function Footer() {
                   SMC DAO
                 </a>
               </li>
-
-              <li>
-                <Link
-                  href="#"
-                  className="text-sm text-white/55 hover:text-white"
-                >
-                  FAQ
-                </Link>
-              </li>
             </ul>
           </div>
 
@@ -98,7 +89,7 @@ function Footer() {
             <ul className="flex flex-col gap-2">
               <li>
                 <Link
-                  href="#courses"
+                  href="/#courses"
                   className="text-sm text-white/55 hover:text-white"
                 >
                   All courses
@@ -107,7 +98,7 @@ function Footer() {
 
               <li>
                 <Link
-                  href="#testimonials"
+                  href="/#testimonials"
                   className="text-sm text-white/55 hover:text-white"
                 >
                   Testimonials
@@ -116,7 +107,7 @@ function Footer() {
 
               <li>
                 <Link
-                  href="#referral"
+                  href="/#referral"
                   className="text-sm text-white/55 hover:text-white"
                 >
                   Referral program
@@ -124,12 +115,14 @@ function Footer() {
               </li>
 
               <li>
-                <Link
-                  href="#"
+                <a
+                  href="https://chat.whatsapp.com/BrymLc01EjZIj4biDglVsW"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-sm text-white/55 hover:text-white"
                 >
                   Join waitlist
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
