@@ -48,7 +48,7 @@ function EventsPage() {
           <>
             {nextEvent && <FeaturedEvent event={nextEvent} />}
 
-            {events.length > 0 && (
+            {restUpcomingEvents.length > 0 && (
               <div className="mt-12">
                 <h2 className="text-2xl sm:text-3xl font-medium">
                   Also coming up

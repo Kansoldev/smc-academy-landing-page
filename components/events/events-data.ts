@@ -3,18 +3,6 @@ import { AcademyEvent } from "./types";
 export const upcomingEvents: AcademyEvent[] = [
   {
     id: "1",
-    title: "Crypto Fundamental / Trading Masterclass",
-    category: "Crypto Trading",
-    startDate: "2026-09-14",
-    endDate: "2026-09-15",
-    time: "9:00 AM",
-    format: "Online",
-    location: "Live on Zoom",
-    description:
-      "Learn crypto fundamentals, understand the market, and master essential trading concepts and strategies.",
-  },
-  {
-    id: "2",
     title: "Blockchain Research Masterclass",
     category: "Blockchain & Web3",
     startDate: "2026-09-17",
@@ -39,5 +27,17 @@ export const pastEvents: AcademyEvent[] = [
     location: "166 Edet Akpan Avenue, Uyo — also on Zoom",
     description:
       "Three days on reading the forex market with confidence, from candlestick basics to a simple risk framework.",
+  },
+  {
+    id: "2",
+    title: "Crypto Fundamental / Trading Masterclass",
+    category: "Crypto Trading",
+    startDate: "2026-09-14",
+    endDate: "2026-09-15",
+    time: "9:00 AM",
+    format: "Online",
+    location: "Live on Zoom",
+    description:
+      "Learn crypto fundamentals, understand the market, and master essential trading concepts and strategies.",
   },
 ];
