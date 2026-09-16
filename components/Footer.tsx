@@ -132,8 +132,8 @@ function Footer() {
             <ul className="flex flex-col gap-2">
               <li>
                 <p className="text-sm text-white/55">
-                  By Eni Stores, 166 General Edet Akpan Ave, 4 Lane, Uyo, Akwa
-                  Ibom state, Nigeria
+                  166 Edet Akpan Avenue (4 Lane by Eni Stores), Uyo, Akwa Ibom
+                  State, Nigeria
                 </p>
               </li>
 
