@@ -30,7 +30,9 @@ function EventRow({ event }: { event: AcademyEvent }) {
         </div>
 
         <h4 className="text-lg">{event.title}</h4>
-        <p className="text-sm text-[#777772] mt-2">{event.description}</p>
+        <p className="text-sm text-[#777772] mt-2 md:w-3/4">
+          {event.description}
+        </p>
         <p className="text-sm text-[#777772] mt-2">
           {event.time} · {event.location}
         </p>
