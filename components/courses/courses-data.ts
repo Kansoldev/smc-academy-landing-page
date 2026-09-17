@@ -47,6 +47,7 @@ export const courses: Course[] = [
       "Write, test, and deploy your own smart contracts on Ethereum and BSC, then ship a working dApp from scratch.",
     duration: "12 weeks",
     format: "Online & physical",
+    price: "170000",
     available: false,
   },
   {
@@ -58,6 +59,7 @@ export const courses: Course[] = [
       "Design products people enjoy using. Learn research, wireframing, and prototyping through real client-style briefs.",
     duration: "12 weeks",
     format: "Online & physical",
+    price: "150000",
     available: false,
   },
   {
@@ -79,7 +81,7 @@ export const courses: Course[] = [
     categoryLabel: "Data & security",
     description:
       "Learn how to turn raw data into meaningful insights using essential data analysis tools and techniques. Build practical skills in data cleaning, visualization, interpretation, and reporting to make smarter, data-driven decisions.",
-    duration: "12 weeks",
+    duration: "8 weeks",
     format: "Online & physical",
     price: "100000",
     available: true,
@@ -92,7 +94,7 @@ export const courses: Course[] = [
     categoryLabel: "Data & security",
     description:
       "Learn to identify, prevent, and respond to digital threats, and build the fundamentals for a career protecting systems.",
-    duration: "12 weeks",
+    duration: "8 weeks",
     format: "Online & physical",
     price: "100000",
     available: true,
@@ -105,10 +107,11 @@ export const courses: Course[] = [
     categoryLabel: "Trading & finance",
     description:
       "Learn the fundamentals of cryptocurrency trading, from market analysis and risk management to trading strategies and portfolio planning. Develop the knowledge and discipline needed to navigate crypto markets with greater confidence.",
-    duration: "12 weeks",
+    duration: "8 weeks",
     format: "Online & physical",
     price: "72000",
     available: true,
+    discounted: true,
   },
   {
     id: "10",
@@ -117,10 +120,11 @@ export const courses: Course[] = [
     categoryLabel: "Trading & finance",
     description:
       "Learn to read currency markets, manage risk, and build a trading plan you can actually stick to.",
-    duration: "12 weeks",
+    duration: "8 weeks",
     format: "Online & physical",
     price: "72000",
     available: true,
+    discounted: true,
   },
   {
     id: "11",
@@ -129,7 +133,7 @@ export const courses: Course[] = [
     categoryLabel: "Trading & finance",
     description:
       "Learn the fundamentals of Forex and cryptocurrency trading, from market analysis and trading strategies to risk management and portfolio management.",
-    duration: "12 weeks",
+    duration: "8 weeks",
     format: "Online & physical",
     price: "130000",
     available: true,
@@ -141,7 +145,7 @@ export const courses: Course[] = [
     categoryLabel: "Development & design",
     description:
       "A fun, beginner-friendly course that introduces kids to programming through interactive projects and games. Learn fundamental coding concepts and problem-solving skills while building exciting projects.",
-    duration: "12 weeks",
+    duration: "8 weeks",
     format: "Online & physical",
     price: "30000",
     available: true,

@@ -6,7 +6,14 @@ export function formatPrice(price?: string) {
 export function calculateDiscount(price?: string) {
   if (!price) return false;
 
+  let discountedValue = 0;
   const DISCOUNT_PRICE = 50000;
-  const discountedValue = parseInt(price) - DISCOUNT_PRICE;
+
+  if (price === "72000") {
+    discountedValue = parseInt(price) - 22000;
+  } else {
+    discountedValue = parseInt(price) - DISCOUNT_PRICE;
+  }
+
   return `₦${discountedValue.toLocaleString()}`;
 }

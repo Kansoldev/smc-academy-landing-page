@@ -9,6 +9,7 @@ import {
 import { Course } from "./types";
 import { cn } from "@/lib/utils";
 import { calculateDiscount, formatPrice } from "@/utils";
+import { Button } from "@/components/ui/button";
 
 function CourseCard({ course }: { course: Course }) {
   return (
@@ -71,8 +72,8 @@ function CourseCard({ course }: { course: Course }) {
         </div>
       </CardContent>
 
-      {course.available && (
-        <CardFooter>
+      <CardFooter>
+        {course.available ? (
           <a
             href="https://forms.gle/Y6HZ8qndwTk1jKky9"
             target="_blank"
@@ -81,8 +82,17 @@ function CourseCard({ course }: { course: Course }) {
           >
             Enroll now
           </a>
-        </CardFooter>
-      )}
+        ) : (
+          <Button
+            variant="outline"
+            size="lg"
+            className="bg-white text-sm border-2 p-5 py-5.5 mt-0 cursor-not-allowed disabled:border-gray-200 disabled:bg-gray-200 disabled:text-[#777772]"
+            disabled
+          >
+            Enroll now
+          </Button>
+        )}
+      </CardFooter>
     </Card>
   );
 }

@@ -43,7 +43,7 @@ function CourseCatalog({
         </TabsList>
       </Tabs>
 
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-5 items-start mt-6 md:mt-10">
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-5 mt-6 md:mt-10">
         {filteredCourses.map((course) => (
           <CourseCard key={course.id} course={course} />
         ))}
