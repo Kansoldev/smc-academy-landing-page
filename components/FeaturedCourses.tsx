@@ -12,10 +12,10 @@ import { SectionHead } from "./shared";
 
 const courseLists = [
   [
-    Bitcoin,
-    "Blockchain Development",
-    "Write, test and deploy your own smart contracts on Ethereum and BSC, then ship a working dApp.",
-    "12 weeks",
+    Coins,
+    "Forex Trading",
+    "Learn to read currency markets, manage risk, and build a trading plan you can actually stick to.",
+    "8 weeks",
   ],
   [
     LayoutDashboard,
@@ -27,25 +27,25 @@ const courseLists = [
     Database,
     "Data Analysis",
     "Learn how to turn raw data into meaningful insights using essential data analysis tools and techniques. Build practical skills in data cleaning, visualization, interpretation, and reporting to make smarter, data-driven decisions.",
-    "12 weeks",
+    "8 weeks",
   ],
   [
     BarChart3,
     "Blockchain Research",
     "Explore the fundamentals of blockchain technology, emerging trends, and real-world applications. Develop the research skills needed to analyze blockchain ecosystems, evaluate innovations, and uncover insights shaping the future of decentralized technology.",
-    "12 weeks",
+    "8 weeks",
   ],
   [
-    Coins,
+    Bitcoin,
     "Cryptocurrency Fundamental/Trading",
     "Learn the fundamentals of cryptocurrency trading, from market analysis and risk management to trading strategies and portfolio planning. Develop the knowledge and discipline needed to navigate crypto markets with greater confidence.",
-    "12 weeks",
+    "8 weeks",
   ],
   [
     FileImage,
     "Graphics Design",
     "Learn how to create stunning visuals that communicate ideas effectively. Develop practical skills in design principles, branding, typography, color, and industry-standard tools through hands-on projects.",
-    "12 weeks",
+    "8 weeks",
   ],
 ] as const;
 
