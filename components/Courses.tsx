@@ -1,3 +1,4 @@
+import Link from "next/link";
 import {
   BarChart3,
   Bitcoin,
@@ -51,7 +52,7 @@ const courseLists = [
 function Courses() {
   return (
     <section id="courses" className="py-24 max-[600px]:py-16">
-      <div className="w-full max-w-290 mx-auto px-5 md:px-8">
+      <div className="flex flex-col items-center w-full max-w-290 mx-auto px-5 md:px-8">
         <SectionHead
           title="Our Featured Courses"
           description="Explore our carefully selected courses, designed to help you build practical skills, expand your knowledge, and achieve your goals with confidence."
@@ -79,7 +80,7 @@ function Courses() {
                   href="https://forms.gle/Y6HZ8qndwTk1jKky9"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-black text-white hover:-translate-y-px hover:bg-[#1c1f28] rounded-full font-semibold text-sm px-5.5 py-3 mt-6"
+                  className="cta-outline"
                 >
                   Enroll Now
                 </a>
@@ -87,6 +88,10 @@ function Courses() {
             </Card>
           ))}
         </div>
+
+        <Link href="#" className="cta">
+          View all Courses
+        </Link>
       </div>
     </section>
   );
