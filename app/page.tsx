@@ -3,7 +3,7 @@ import Hero from "@/components/Hero";
 import AcademyStats from "@/components/AcademyStats";
 import About from "@/components/About";
 import BonusPromo from "@/components/BonusPromo";
-import Courses from "@/components/Courses";
+import FeaturedCourses from "@/components/FeaturedCourses";
 import Testimonials from "@/components/Testimonials";
 import Referral from "@/components/Referral";
 import Footer from "@/components/Footer";
@@ -17,7 +17,7 @@ export default function Home() {
         <Hero />
         <AcademyStats />
         <About />
-        <Courses />
+        <FeaturedCourses />
         <BonusPromo />
         <Testimonials />
         <Referral />

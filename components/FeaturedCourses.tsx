@@ -49,7 +49,7 @@ const courseLists = [
   ],
 ] as const;
 
-function Courses() {
+function FeaturedCourses() {
   return (
     <section id="courses" className="py-24 max-[600px]:py-16">
       <div className="flex flex-col items-center w-full max-w-290 mx-auto px-5 md:px-8">
@@ -89,7 +89,7 @@ function Courses() {
           ))}
         </div>
 
-        <Link href="#" className="cta">
+        <Link href="/courses" className="cta">
           View all Courses
         </Link>
       </div>
@@ -97,4 +97,4 @@ function Courses() {
   );
 }
 
-export default Courses;
+export default FeaturedCourses;
