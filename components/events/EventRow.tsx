@@ -19,7 +19,7 @@ function EventRow({ event }: { event: AcademyEvent }) {
           <Badge
             variant="secondary"
             className={cn(
-              "border-0 font-normal p-3",
+              "border-0 font-normal",
               categoryStyle[event.category],
             )}
           >

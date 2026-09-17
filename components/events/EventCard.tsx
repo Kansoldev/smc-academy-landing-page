@@ -10,10 +10,7 @@ function EventCard({ event }: { event: AcademyEvent }) {
       <div className="mb-3 flex items-center justify-between gap-2">
         <Badge
           variant="secondary"
-          className={cn(
-            "border-0 font-normal p-3",
-            categoryStyle[event.category],
-          )}
+          className={cn("border-0 font-normal", categoryStyle[event.category])}
         >
           {event.category}
         </Badge>
