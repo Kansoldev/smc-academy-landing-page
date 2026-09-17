@@ -89,7 +89,7 @@ function Footer() {
             <ul className="flex flex-col gap-2">
               <li>
                 <Link
-                  href="/#courses"
+                  href="/courses"
                   className="text-sm text-white/55 hover:text-white"
                 >
                   All courses

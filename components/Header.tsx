@@ -8,7 +8,7 @@ import { AnimatePresence, motion } from "framer-motion";
 
 const links = [
   ["About us", "/#about"],
-  ["Courses", "/#courses"],
+  ["Courses", "/courses"],
   ["Testimonials", "/#testimonials"],
   ["Referral", "/#referral"],
   ["Events", "/events"],
