@@ -21,8 +21,9 @@ export default function Home() {
         <BonusPromo />
         <Testimonials />
         <Referral />
-        <Footer />
       </main>
+
+      <Footer />
     </>
   );
 }
