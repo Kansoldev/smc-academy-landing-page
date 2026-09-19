@@ -46,6 +46,8 @@ function EventsPage() {
       {view === "upcoming" ? (
         <section className="mx-auto max-w-6xl px-6 pb-24">
           <>
+            {events.length === 0 ? <EmptyState view={view} /> : ""}
+
             {nextEvent && <FeaturedEvent event={nextEvent} />}
 
             {restUpcomingEvents.length > 0 && (
