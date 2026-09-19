@@ -33,7 +33,7 @@ function Referral() {
             Telegram
           </h2>
 
-          <p className="text-[0.9375rem] text-[#565c68] mt-3">
+          <p className="text-[#565c68] mt-3">
             Every student gets a personal referral link generated inside our
             Telegram bot. You can share that referral link, and for each
             successful referral, you earn a commission.
@@ -49,7 +49,7 @@ function Referral() {
                 <div>
                   <h3 className="font-semibold text-lg mb-0.5">{title}</h3>
 
-                  <p className="text-sm text-[#565c68]">{body}</p>
+                  <p className="text-[#565c68]">{body}</p>
                 </div>
               </div>
             ))}

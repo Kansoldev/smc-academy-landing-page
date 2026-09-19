@@ -22,7 +22,7 @@ function Footer() {
               </span>
             </Link>
 
-            <p className="text-sm text-white/55 mt-4">
+            <p className="text-white/55 mt-4">
               Learn practical tech skills. Build real-world solutions.
             </p>
 

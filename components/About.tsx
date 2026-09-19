@@ -43,7 +43,7 @@ function About() {
                 </div>
 
                 <h3 className="mb-2 text-xl font-semibold">{t}</h3>
-                <p className="text-sm leading-relaxed">{d}</p>
+                <p className="text-base leading-relaxed text-black/75">{d}</p>
               </CardContent>
             </Card>
           ))}

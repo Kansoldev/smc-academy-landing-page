@@ -51,7 +51,7 @@ const courseLists = [
 
 function FeaturedCourses() {
   return (
-    <section id="courses" className="py-24 max-[600px]:py-16">
+    <section id="courses" className="pb-16 md:py-24">
       <div className="flex flex-col items-center w-full max-w-290 mx-auto px-5 md:px-8">
         <SectionHead
           title="Our Featured Courses"
@@ -67,7 +67,7 @@ function FeaturedCourses() {
                 </div>
 
                 <h3 className="mb-2 font-semibold text-lg">{t}</h3>
-                <p className="flex-1 text-sm text-[#565c68] leading-relaxed">
+                <p className="flex-1 text-base text-[#565c68] leading-relaxed">
                   {d}
                 </p>
                 <div className="mt-5">

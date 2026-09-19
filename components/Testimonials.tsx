@@ -25,7 +25,7 @@ function Testimonials() {
           {data.map(([q, n, r]) => (
             <Card key={n}>
               <CardContent className="flex flex-col justify-between p-6">
-                <h3 className="italic">{q}</h3>
+                <h3 className="text-base italic">{q}</h3>
 
                 <div className="mt-5 flex gap-3">
                   <div className="flex items-center justify-center rounded-full bg-black text-white text-sm font-bold size-10.5">
@@ -33,8 +33,8 @@ function Testimonials() {
                   </div>
 
                   <div>
-                    <p className="font-semibold">{n}</p>
-                    <span className="block text-xs text-[#8a8f99]">{r}</span>
+                    <p className="font-semibold text-base">{n}</p>
+                    <span className="block text-[#8a8f99]">{r}</span>
                   </div>
                 </div>
               </CardContent>
