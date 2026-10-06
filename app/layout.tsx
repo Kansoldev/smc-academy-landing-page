@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
 
 const AeonikFont = localFont({
@@ -32,11 +33,16 @@ export const metadata: Metadata = {
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
+  // Check if the current environment is in Production
+  const production = process.env.NODE_ENV === "production";
+
   return (
     <html lang="en" className={AeonikFont.className}>
       <body className="m-0 bg-background text-black text-base leading-[1.6] antialiased">
         {children}
       </body>
+
+      {production && <GoogleAnalytics gaId="G-6F9EPJK8HT" />}
     </html>
   );
 }
