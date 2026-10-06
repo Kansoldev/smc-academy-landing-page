@@ -8,7 +8,7 @@ export const courses: Course[] = [
     categoryLabel: "Web3 & blockchain",
     description:
       "Explore the fundamentals of blockchain technology, emerging trends, and real-world applications. Develop the research skills needed to analyze blockchain ecosystems, evaluate innovations, and uncover insights shaping the future of decentralized technology.",
-    duration: "12 weeks",
+    duration: "8 weeks",
     format: "Online & physical",
     price: "100000",
     available: true,
@@ -69,7 +69,7 @@ export const courses: Course[] = [
     categoryLabel: "Development & design",
     description:
       "Learn how to create stunning visuals that communicate ideas effectively. Develop practical skills in design principles, branding, typography, color, and industry-standard tools through hands-on projects.",
-    duration: "12 weeks",
+    duration: "8 weeks",
     format: "Online & physical",
     price: "50000",
     available: true,
