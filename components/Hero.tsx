@@ -13,7 +13,7 @@ function Hero() {
           transition={{ duration: 0.6 }}
         >
           <h1 className="text-4xl md:text-6xl font-bold leading-tight">
-            Your Future in Tech Starts Here!.
+            Your Future in Tech Starts Here!
           </h1>
 
           <p className="mt-5 text-[#565c68]">
