@@ -28,6 +28,9 @@ export const metadata: Metadata = {
   title: "SMC Academy",
   description:
     "Learn in-demand digital skills at SMC Academy. Train in Web3, blockchain, forex, coding, graphics design, crypto and more.",
+  other: {
+    "google-site-verification": "CiN7k93I3ez1pOIzzwjqBV7CEeYRAYnZG2AeGmbKTJo",
+  },
 };
 
 export default function RootLayout({
